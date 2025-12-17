@@ -1,0 +1,131 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Google Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.815rem;
+font-size: clamp(3.815rem, 2.4370202020202014rem + 3.626262626262627vw, 5.61rem);
+    
+}
+
+h2 {
+    font-size: 3.052rem;
+font-size: clamp(3.052rem, 2.1637979797979803rem + 2.3373737373737367vw, 4.209rem);
+
+}
+
+h3 {
+    font-size: 1.602rem;
+font-size: clamp(1.602rem, 0.4082626262626263rem + 3.1414141414141414vw, 3.157rem); 
+}
+
+h4 {
+    font-size: 1.424rem;
+font-size: clamp(1.424rem, 0.6985454545454541rem + 1.9090909090909098vw, 2.369rem);
+}
+
+h5 {
+    font-size: 1.266rem;
+font-size: clamp(1.266rem, 0.8737171717171717rem + 1.0323232323232323vw, 1.777rem);
+}
+
+h6 {
+    font-size: 1.125rem;
+font-size: clamp(1.125rem, 0.9653232323232324rem + 0.4202020202020202vw, 1.333rem);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: aqua;
+}
+
+.total_container {
+    height: 100%;
+    border: 3px solid yellow;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.goals_container {
+    border: 3px solid green;
+    /* position: absolute;
+    top: 0px; */
+    display: flex;
+    flex-direction: row;
+}
+
+.goal_text {
+    border: 3px solid red;
+    /* position: relative;
+    left: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.goal_image {
+    border: 3px solid blue;
+    /* position: relative;
+    right: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+}
+
+.food_container {
+    border: 3px solid purple;
+    /* position: absolute;
+    bottom: 0px; */
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.food_list {
+    border: 3px solid orange;
+    /* position: absolute;
+    right: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.food_image {
+    border: 3px solid black;
+    /* position: absolute;
+    left: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
